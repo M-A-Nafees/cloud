@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Show system info
-        run: uname -a
+        run: ip addr
