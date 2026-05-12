@@ -1,0 +1,12 @@
+name: System Info
+
+on:
+  push:
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show system info
+        run: uname -a
